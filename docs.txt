@@ -1,0 +1,33 @@
+# Cách chạy website từ điển online
+
+Đầu tiên chúng ta sẽ lấy source code từ github theo link:
+
+## Link Project
+
+[MIT](https://github.com/nhat64283)
+
+Sau khi đã lấy được code về máy, chúng ta sẽ mở thư mục code lên bằng visual
+studio code. Tại màn hình Terminal, chạy dòng lệnh sau:
+
+```
+cd backend
+npm install
+```
+
+Để cài đặt các package cần thiết cho server.
+Tiếp theo, khi đã cài đặt xong các gói packge ta chạy tiếp dòng lệnh sau để khởi chạy server:
+
+```
+npm run start
+```
+
+Và mở thêm 1 cửa sổ Terminal, chạy liên tiếp các câu lệnh sau để chuyển tới thư
+mục frontend và cài đặt các gói package cần thiết rồi khởi chạy client:
+
+```
+cd frontend
+npm install
+npm start
+```
+
+Khi các bước hoàn thành, server sẽ tự động mở lên trên trình duyệt tại http://localhost:3000
